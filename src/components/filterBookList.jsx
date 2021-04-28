@@ -13,13 +13,9 @@ class FilterBookList extends React.Component {
       <div>
         <Container className="mt-3">
           <InputGroup className="mb-3">
-            <InputGroup.Prepend>
-              <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
-            </InputGroup.Prepend>
             <FormControl
               onKeyUp={(e) => this.setState({ query: e.target.value })}
-              placeholder="Username"
-              aria-label="Username"
+              placeholder="Search"
               aria-describedby="basic-addon1"
             />
           </InputGroup>
