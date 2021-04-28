@@ -8,8 +8,8 @@ import FilterBookList from "./components/filterBookList";
 function App() {
   return (
     <div>
-      <WarningSign content="Its React Be Careful!!!" />
-      <MyBadge text="Some text" color="yellow" />
+      <WarningSign content="Its React BE CAREFUL!!!" />
+      <MyBadge text="Fantasy Books" color="yellow" />
       <FilterBookList />
     </div>
   );
